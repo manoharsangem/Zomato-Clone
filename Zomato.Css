@@ -1,0 +1,183 @@
+  *body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+     /*header*/
+
+
+header logo{
+    font-weight: bold;
+    font-size: 20px; /* Increased font size */
+    font-weight: 500;
+    padding: 10px 15px;
+    z-index: 1;
+    color: white;
+}
+
+header logo a{
+    text-decoration: none;
+    color: white;
+}
+
+
+ 
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+
+header ul li a{
+    text-decoration:none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px; /* Increased font size */
+    font-weight: 500;
+    padding: 10px 15px; /* Add spacing around each item */
+    transition: color 0.3s ease;
+    position: relative;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Body*/
+
+.main{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    color: white;
+}
+
+ h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+} 
+
+
+.BGimg{
+    width: fit-content;
+    position:absolute;
+    width:100%;
+    height: 70%;
+
+} 
+
+/*Search Bar*/
+
+.input_section{
+    background-color:white;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+
+}
+
+.input_section #location {
+    color: rgb(240, 85, 85);
+    position: relative;
+    font-size: 18px;
+}
+
+.input_section #Search_logo {
+    color: rgb(90, 89, 89);
+    position: relative;
+    font-size: 18px;
+}
+
+.input_section input{
+    height:40px;
+    padding-top: 0;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.input_section #Search_logo {
+    color: rgb(90, 89, 89);
+    position: relative;
+    font-size: 18px;
+}
+
+.input_section select{
+    height: 40px;
+    padding-top: 0;
+    align-items: center;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+  /*second Half*/
+
+
+.second_half{
+    display: flex;
+    margin: 30px;
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+
+.second_half h6{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.second_half p{
+    margin-left: 8px;
+    color: rgb(48, 48, 48);
+}
+
+.second_half img{
+    width: 100%;
+    margin-right: 40px;
+    height: 200px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius:0 ;
+}
+
+.second_half .pic1 {
+    background-color: white;
+    width: 30%;
+    border-style: groove;
+    margin-right: 40px;
+    height: 10%;
+    border-radius: 15px;
+}
+
+.second_half .pic2 {
+    background-color:white;
+    border-style: groove;
+    width: 28%;
+    margin-right: 40px;
+    height: 10%;
+    border-radius: 15px;
+
+}
+
+.second_half .pic3 {
+    background-color:white;
+    border-style: groove;
+    width: 28%;
+    margin-right: 40px;
+    height: 20%;
+    border-radius: 15px;
+
+}
+
+
+
+
